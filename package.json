@@ -4,8 +4,9 @@
 	"description": "basic ecom server",
 	"main": "src/index.js",
 	"scripts": {
-		"build": "tsc",
-		"start": "nodemon --exec ts-node src/index.ts"
+		"build": "tsc -p",
+		"prod": "nodemon --exec ts-node src/index.ts",
+		"start": "node dist/index.js"
 	},
 	"repository": {
 		"type": "git",
