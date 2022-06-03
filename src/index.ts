@@ -20,7 +20,7 @@ const resolvers = require("./resolvers");
 
 require("dotenv").config();
 
-const PORT: any = process.env.PORT || 5000;
+const PORT: any = process.env.PORT || 3000;
 const DATABASE: any = process.env.MONGODB_URI;
 
 async function startApolloServer(typeDefs: any, resolvers: any) {
